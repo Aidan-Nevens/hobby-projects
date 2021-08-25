@@ -1,0 +1,13 @@
+# Subquery Practice Using The Metropolitan Museum of Art Collection API
+
+I've wanted to do some subquery practice, as these more complex SQL queries are commonly used in practice. This hobby project is really to hone in on these skills and gain a clear understanding of subqueries to the point where we can clearly explain what's going on in the query. 
+
+I've selected a public dataset to practice these skills. What I'll do is create a mock scenario, and draft a SQL query using the R library "sqldf" to render query results using SQL. 
+
+I also wanted to get some practice working with APIs. Eventually I want to do a hobby project where I access Spotify's API to practice my skills in creating predictive models. This would help set me up for this.
+
+The API we'll be accessing is the The Metropolitan Museum of Art Collection API which can be accessed here (https://metmuseum.github.io). 
+
+As stated on the API page "Using GET /public/collection/v1/objects/[objectID] returns a record for an object, containing all open access data about that object, including its image (if the image is available under Open Access)". Here we can get information like if the work is popular and important, the title, the deparment name, the object date, the culture, and more. This extensive dataset is a great way to practice subqueries. 
+
+
